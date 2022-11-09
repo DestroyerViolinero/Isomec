@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+:root {
+	/* Base font size */
+	font-size: 10px;
+
+	/* Heading height variable*/
+	--heading-height: 10%;
+}
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	background-color: #101010;
+}
+
+main {
+	padding: 1.5rem 1rem 1rem 1rem;
+	box-shadow: 0 5px 10px 0 white;
+	position:sticky;
+	margin-top: 1%;
+	background: 
+		linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+		url(/public/fondo.jpg) no-repeat center,
+		linear-gradient(#4e4376, #2b5876);
+	background-size: cover;
+	min-height: 10rem ;
+}
+
+/* Create angled background with 'before' pseudo-element */
+header{
+	padding: 10px 10px 10px 10px;
+	box-shadow: 0px 5px 10px 0 white;
+	height: calc(27rem + 1vh + 1vw);
+	text-align: left;
+
+}
+header::before {
+	content: '';
+	margin-bottom: 1%;
+	display:inline-block;
+	width: 100%;
+	height: calc(10rem + 1vh + 1vw);
+	transform: skewY(-1.5deg);
+	background: 
+		linear-gradient(rgba(22, 0, 0, 0.6), rgba(5, 1, 24, 0.6)),
+		url(/public/maquina.jpg) no-repeat center,
+		linear-gradient(#0c0000, #011a2b);
+	background-size: 75%;
+	border-bottom: .2em solid #fff;
+}
+
+h1 {
+	text-align: left;
+	position:sticky;
+	margin-top: 0%;
+	display: inline-flex;
+	font-size: calc(1.5rem + 1vh + 1vw);
+	font-weight: 700;
+	letter-spacing: .01em;
+	padding: .1rem 0 0 1rem;
+	text-shadow: .5rem .5rem .5rem rgb(94, 45, 45);
+	color: #fff;
+}
+h2 {
+	text-align: left;
+	margin-top: 0%;
+	margin-left: 0%;
+	font-size: calc(1.8em + 1vh + 1vw);
+	font-weight: 500;
+	letter-spacing: .01em;
+	padding: 10rem 0 0 4.rem;
+	text-shadow: .022em .022em .022em #111;
+	color: #fff;
+}
+p{
+	text-align: left;
+	font-size: calc(.3em + 1vh + 1vw);
+}
+
+
+/*navbar*/
+ 
+  .nav > .nav-header {
+	display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+	margin-top: 1%;
+	display: inline-block;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: calc(.7rem + 1vh);
+	color: #fff;
+	padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+	display: none;
+  }
+  
+  .nav > .nav-links {
+	display: inline;
+	float: right;
+	font-size: calc(.2rem + 1vh + 1vw);
+	
+  }
+  
+  .nav > .nav-links > a {
+	display: inline-block;
+	padding: 13px 10px 13px 10px;
+	text-decoration: none;
+	color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+	background-color: rgba(3, 3, 34, 0.3);
+  }
+  
+  .nav > .nav-check {
+	display: none;
+  }
+  
+  @media (max-width:400px) {
+	.nav > .nav-btn {
+	  display: inline-block;
+	  position: absolute;
+	  right: 0px;
+	  top: 0px;
+	}
+	.nav > .nav-btn > label {
+	  display: inline-block;
+	  width: 50px;
+	  height: 50px;
+	  padding: 13px;
+	}
+	.nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+	  background-color: rgba(0, 0, 0, 0.3);
+	}
+	.nav > .nav-btn > label > span {
+	  display: block;
+	  width: 25%;
+	  height: 10px;
+	  border-top: 2px solid #eee;
+	}
+	.nav > .nav-links {
+	  display: flex;
+	  width: 100%;
+	  background-color: #333;
+	  height: 10%;
+	  transition: all 0.3s ease-in;
+	  overflow-y: hidden;
+	  top: 50%;
+	  left: 0%;
+	}
+	.nav > .nav-links > a {
+	  display: flex;
+	  width: 100%;
+	}
+	.nav > #nav-check:not(:checked) ~ .nav-links {
+	  height: 0%;
+	}
+	.nav > #nav-check:checked ~ .nav-links {
+	  height: calc(100vh - 50px);
+	  overflow-y: auto;
+	}
+  }
+  .imagen{
+	margin-right:calc(10vw) ;
+	margin-left:calc(10vw) ; 
+	overflow: hidden;  
+	width:calc(80vw - 50px);
+	height: calc(80vw - 50px);
+	background:
+		linear-gradient(rgba(22, 0, 0, 0.6), rgba(5, 1, 24, 0.6)),
+  }
+  .imagenpro{
+	max-width: 400px;
+	max-height: 300px;
+	margin-top: 15px;
+	margin-right:calc(10vw) ;
+	margin-left:calc(5vw) ; 
+	overflow: hidden;  
+	width:calc(80vw - 50px);
+	height: calc(60vw - 50px);
+	background:
+		linear-gradient(rgba(22, 0, 0, 0.6), rgba(5, 1, 24, 0.6)),
+  }
