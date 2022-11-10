@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/isomec/static/css/main.dea786f7.css",
+    "main.css": "/isomec/static/css/main.522c758e.css",
     "main.js": "/isomec/static/js/main.cc19396f.js",
     "static/js/787.ac0957de.chunk.js": "/isomec/static/js/787.ac0957de.chunk.js",
     "static/media/innova.jpg": "/isomec/static/media/innova.69d963fbebfa3983fa02.jpg",
@@ -9,12 +9,12 @@
     "static/media/impacto.jpg": "/isomec/static/media/impacto.0a9688fab918c43e2fb2.jpg",
     "static/media/maquina.jpg": "/isomec/static/media/maquina.c4a793b9aa088c3ac193.jpg",
     "index.html": "/isomec/index.html",
-    "main.dea786f7.css.map": "/isomec/static/css/main.dea786f7.css.map",
+    "main.522c758e.css.map": "/isomec/static/css/main.522c758e.css.map",
     "main.cc19396f.js.map": "/isomec/static/js/main.cc19396f.js.map",
     "787.ac0957de.chunk.js.map": "/isomec/static/js/787.ac0957de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dea786f7.css",
+    "static/css/main.522c758e.css",
     "static/js/main.cc19396f.js"
   ]
 }
