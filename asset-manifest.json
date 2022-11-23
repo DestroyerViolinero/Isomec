@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/isomec/static/css/main.38f5910a.css",
-    "main.js": "/isomec/static/js/main.01c8a659.js",
+    "main.css": "/isomec/static/css/main.56452a0c.css",
+    "main.js": "/isomec/static/js/main.b9010f67.js",
     "static/js/787.ac0957de.chunk.js": "/isomec/static/js/787.ac0957de.chunk.js",
-    "static/media/innova.jpg": "/isomec/static/media/innova.69d963fbebfa3983fa02.jpg",
-    "static/media/ing.jpg": "/isomec/static/media/ing.83143045e325a00efe6a.jpg",
+    "static/media/Mantenimiento.png": "/isomec/static/media/Mantenimiento.77019a8ce3c7def6cb2f.png",
+    "static/media/Mecatronica.png": "/isomec/static/media/Mecatronica.c5789de3ee765c6e1104.png",
+    "static/media/impacto.png": "/isomec/static/media/impacto.f155f4f0314d6c45efdd.png",
+    "static/media/diseño3d.png": "/isomec/static/media/diseño3d.f12268434cfb86cc37b6.png",
     "static/media/fondo.jpg": "/isomec/static/media/fondo.a1c8c5eb094b0d8c618e.jpg",
-    "static/media/impacto.jpg": "/isomec/static/media/impacto.0a9688fab918c43e2fb2.jpg",
     "static/media/maquina.jpg": "/isomec/static/media/maquina.c4a793b9aa088c3ac193.jpg",
     "static/media/isomecNegroBlanco.png": "/isomec/static/media/isomecNegroBlanco.4bbd2c2bc78185ab7ed5.png",
     "index.html": "/isomec/index.html",
-    "main.38f5910a.css.map": "/isomec/static/css/main.38f5910a.css.map",
-    "main.01c8a659.js.map": "/isomec/static/js/main.01c8a659.js.map",
+    "main.56452a0c.css.map": "/isomec/static/css/main.56452a0c.css.map",
+    "main.b9010f67.js.map": "/isomec/static/js/main.b9010f67.js.map",
     "787.ac0957de.chunk.js.map": "/isomec/static/js/787.ac0957de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38f5910a.css",
-    "static/js/main.01c8a659.js"
+    "static/css/main.56452a0c.css",
+    "static/js/main.b9010f67.js"
   ]
 }
